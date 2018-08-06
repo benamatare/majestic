@@ -32,14 +32,16 @@ class Frame extends Component {
 
     render_iframe = id => {
         return(
-            <div className="frame-video"> <iframe
-                title="video-title"
-                type="text/html"
-                src={`http://www.youtube.com/embed/${id}?autoplay=1;enablejsapi=1&controls=0`}
-                border="0"
-                frameBorder="0"
-                allow="autoplay ;encrypted-media"
-            ></iframe></div>
+            <div className="frame-video"> 
+                <iframe
+                    title="video-title"
+                    type="text/html"
+                    src={`http://www.youtube.com/embed/${id}?autoplay=1;enablejsapi=1&controls=0&disablekb=1&fs=0&iv_load_policy=3&color=white&showinfo=0&autoplay=1`}
+                    border="0"
+                    frameBorder="0"
+                    allow="autoplay ;encrypted-media">
+                </iframe>
+            </div>
         );
     };
 
