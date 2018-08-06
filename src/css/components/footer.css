@@ -1,0 +1,12 @@
+/* Footer Icon including text */
+span.majestic-footer {
+    color: black;
+    margin-right: 0.25%;
+    width: fit-content;
+    box-sizing: border-box;
+    align-self: flex-end;
+    text-transform: lowercase;
+
+    font-size: 0.7em;
+    font-weight: 550;
+}
