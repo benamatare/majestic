@@ -1,0 +1,9 @@
+{
+  "short_name": "majestic",
+  "name": "majestic",
+
+  "start_url": "./index.html",
+  "display": "standalone",
+  
+  "background_color": "#ffffff"
+}
