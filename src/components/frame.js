@@ -70,7 +70,7 @@ class Frame extends Component {
 
     render(){
         // Jsut for your reference
-        console.log('Current song is, ', this.state.title);
+        console.log('Current song is ', this.state.title);
      return(
          <div className="frame-container"> 
             <h3 className="frame-song-title"> {this.state.title} </h3>
